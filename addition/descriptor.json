@@ -1,0 +1,27 @@
+{
+    "name": "add",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "add",
+    "description": "addition of two numbers",
+    "homepage": "https://github.com/hariHp1532/one/addtion",
+    "input": [
+      {
+        "name": "Num1",
+        "type": "int",
+        "required": true
+      },
+      {
+        "name":"Num2",
+        "type":"int",
+        "required":true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "int"
+      }
+    ]
+  }
+  
