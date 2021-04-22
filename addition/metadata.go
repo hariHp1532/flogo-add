@@ -1,6 +1,8 @@
 package addition
 
 import (
+	"fmt"
+
 	"github.com/project-flogo/core/data/coerce"
 	//"github.com/spf13/cast"
 )
@@ -14,7 +16,7 @@ func (r *Input) FromMap(values map[string]interface{}) error {
 
 	Val1, _ := coerce.ToInt(values["Num1"])
 	r.Num1 = Val1
-
+	fmt.Println(values["Num1"])
 	Val2, _ := coerce.ToInt(values["Num2"])
 	r.Num2 = Val2
 	return nil
