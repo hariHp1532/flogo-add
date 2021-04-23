@@ -1,0 +1,32 @@
+{
+    "name": "hp1532-filter",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "hp1532-filter",
+    "description": "filter operation",
+    "homepage": "https://github.com/hariHp1532/flogo-add/filter",
+    "input": [
+      {
+        "name": "Num1",
+        "type": "int",
+        "required": true
+      },
+      {
+        "name":"Num2",
+        "type":"int",
+        "required":true
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "int"
+      }
+    ]
+  }
+  
