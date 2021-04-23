@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "title": "hp1532-multiplication",
     "description": "multiplication of two numbers",
-    "homepage": "https://github.com/hariHp1532/one/multiplication",
+    "homepage": "https://github.com/hariHp1532/flogo-add/multiplication",
     "input": [
       {
         "name": "Num1",
