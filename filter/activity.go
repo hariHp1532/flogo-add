@@ -48,20 +48,37 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	case "+":
 		out:= input.Num1 + input.Num2
 		fmt.Println("Your Addition Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	case "-":
 		out:= input.Num1 - input.Num2
 		fmt.Println("Your Subtraction Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	case "/":
 		out:= input.Num1 / input.Num2
 		fmt.Println("Your Divide Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	case "%":
 		out:= input.Num1 % input.Num2
 		fmt.Println("Your Percentage Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	case "^":
 		out:= input.Num1 ^ input.Num2
 		fmt.Println("Your root Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
+	case "*":
+		out:= input.Num1 * input.Num2
+		fmt.Println("Your root Value: ", out)
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	default:
 		fmt.Println("Invalid Output")
+		output := &Output{Output: out}
+		err = ctx.SetOutputObject(output)
 	}	
 	
 	output := &Output{Output: out}
