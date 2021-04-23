@@ -38,9 +38,9 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		return true, err
 	}
-	fmt.Println(input.Num1)
-	fmt.Println(input.Num2)
-	fmt.Println(input.Operation)
+	fmt.Println("num1 value:",input.Num1)
+	fmt.Println("num2 value:",input.Num2)
+	fmt.Println("operation:",input.Operation)
 
 	fmt.Scanln(input.Operation)
 	
