@@ -6,14 +6,14 @@ import (
 	"github.com/project-flogo/core/activity"
 )
 
-funoutinit() {
+func init() {
 	_ = activity.Register(&Activity{}) //activity.Register(&Activity{}, New) to create instances using factory method 'New'
 }
 
 var activityMd = activity.ToMetadata(&Input{}, &Output{})
 
 //New optional factory method, should be used if one activity instance per configuration is desired
-funoutNew(ctx activity.InitContext) (activity.Activity, error) {
+func New(ctx activity.InitContext) (activity.Activity, error) {
 
 	act := &Activity{} //add aSetting to instance
 
@@ -25,12 +25,12 @@ type Activity struct {
 }
 
 // Metadata returns the activity's metadata
-funout(a *Activity) Metadata() *activity.Metadata {
+func (a *Activity) Metadata() *activity.Metadata {
 	return activityMd
 }
 
 // Eval implements api.Activity.Eval - Logs the Message
-funout(a *Activity) Eval(ctx activity.Context) (done bool, err error) {
+func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
 	input := &Input{}//creating a pointer of the input ref
 	err = ctx.GetInputObject(input) //GetInputObject gets all the activity input as the specified object.
