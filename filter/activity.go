@@ -42,7 +42,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	fmt.Println(input.Operation)
 
 	fmt.Scanln(input.Operation)
-	output := &Output{Output: out}
+	Var out int
 	switch input.Operation {
 	case "+":
 		out:= input.Num1 + input.Num2
@@ -63,6 +63,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		fmt.Println("Invalid Output")
 	}	
 	
+	output := &Output{Output: out}
 	err = ctx.SetOutputObject(output) //SetOutputObject sets the activity output as the specified object.
 
 	if err != nil {
