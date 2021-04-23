@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "title": "hp1532-subtraction",
     "description": "subtraction of two numbers",
-    "homepage": "https://github.com/hariHp1532/one/subtraction",
+    "homepage": "https://github.com/hariHp1532/flogo-add/subtraction",
     "input": [
       {
         "name": "Num1",
