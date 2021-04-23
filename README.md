@@ -9,7 +9,7 @@ Link for flogo web:
 
 addition:			
 
-https://github.com/hariHp1532/flogo-add/addtion
+https://github.com/hariHp1532/flogo-add/addition
 
 subtraction:   
 
