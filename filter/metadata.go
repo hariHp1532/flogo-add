@@ -1,4 +1,4 @@
-package subtraction
+package filter
 
 import (
 	"fmt"
