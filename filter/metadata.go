@@ -45,7 +45,7 @@ type Output struct {
 func (o *Output) FromMap(values map[string]interface{}) error {
 	strVal, _ := coerce.ToInt(values["Output"])
 	o.Output = strVal
-	fmt.Println("output value is: ", values["Output"])
+	//fmt.Println("output value is: ", values["Output"])
 	return nil
 }
 
