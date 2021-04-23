@@ -24,7 +24,7 @@ func (r *Input) FromMap(values map[string]interface{}) error {
 	fmt.Println("num2 value is: ", values["Num2"])
 
 	Val3, _ := coerce.ToString(values["Operation"])
-	r.Num2 = Val3
+	r.Operation = Val3
 	fmt.Println("operation value is: ", values["Operation"])
 
 	return nil
