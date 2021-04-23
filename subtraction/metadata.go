@@ -43,4 +43,4 @@ func (o *Output) ToMap() map[string]interface{} {
 	return map[string]interface{}{
 		"Output": o.Output,
 	}
-}
+} 
