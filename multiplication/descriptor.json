@@ -1,0 +1,27 @@
+{
+    "name": "hp1532-multiplication",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "hp1532-multiplication",
+    "description": "multiplication of two numbers",
+    "homepage": "https://github.com/hariHp1532/one/multiplication",
+    "input": [
+      {
+        "name": "Num1",
+        "type": "int",
+        "required": true
+      },
+      {
+        "name":"Num2",
+        "type":"int",
+        "required":true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "int"
+      }
+    ]
+  }
+  
