@@ -1,8 +1,8 @@
 {
-    "name": "add",
+    "name": "hp1532-add",
     "type": "flogo:activity",
     "version": "0.0.1",
-    "title": "add",
+    "title": "hp1532-add",
     "description": "addition of two numbers",
     "homepage": "https://github.com/hariHp1532/flogo-add/addtion",
     "input": [
