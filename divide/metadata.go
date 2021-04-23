@@ -32,7 +32,6 @@ func (r *Input) ToMap() map[string]interface{} {
 type Output struct {
 	Output int `md:"Output"`
 }
-
 func (o *Output) FromMap(values map[string]interface{}) error {
 	strVal, _ := coerce.ToInt(values["Output"])
 	o.Output = strVal
