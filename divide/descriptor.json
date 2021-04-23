@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "title": "hp1532-divide",
     "description": "divide of two numbers",
-    "homepage": "https://github.com/hariHp1532/one/divide",
+    "homepage": "https://github.com/hariHp1532/flogo-add/divide",
     "input": [
       {
         "name": "Num1",
