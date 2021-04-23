@@ -33,6 +33,7 @@ func (a *Activity) Metadata() *activity.Metadata {
 func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
 	input := &Input{}//creating a pointer of the input ref
+	Var out int
 	err = ctx.GetInputObject(input) //GetInputObject gets all the activity input as the specified object.
 	if err != nil {
 		return true, err
@@ -42,7 +43,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	fmt.Println(input.Operation)
 
 	fmt.Scanln(input.Operation)
-	Var out int
+	
 	switch input.Operation {
 	case "+":
 		out:= input.Num1 + input.Num2
