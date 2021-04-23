@@ -38,10 +38,13 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		return true, err
 	}
 	fmt.Println(input.Num1)
+	fmt.Println(input.Num2)
 
 	out := input.Num1 - input.Num2
+	
 
 	output := &Output{Output: out}
+	fmt.Println(output)
 	err = ctx.SetOutputObject(output) //SetOutputObject sets the activity output as the specified object.
 
 	if err != nil {
