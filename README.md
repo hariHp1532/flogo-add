@@ -22,3 +22,7 @@ https://github.com/hariHp1532/flogo-add/divide
 multiplication: 
 
 https://github.com/hariHp1532/flogo-add/multiplication
+
+filter:
+
+https://github.com/hariHp1532/flogo-add/filter
