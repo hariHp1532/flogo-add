@@ -46,22 +46,22 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	
 	switch input.Operation {
 	case "+":
-		out:= input.Num1 + input.Num2
+		out = input.Num1 + input.Num2
 		fmt.Println("Your Addition Value: ", out)
 	case "-":
-		out:= input.Num1 - input.Num2
+		out = input.Num1 - input.Num2
 		fmt.Println("Your Subtraction Value: ", out)
 	case "/":
-		out:= input.Num1 / input.Num2
+		out = input.Num1 / input.Num2
 		fmt.Println("Your Divide Value: ", out)
 	case "%":
-		out:= input.Num1 % input.Num2
+		out = input.Num1 % input.Num2
 		fmt.Println("Your Percentage Value: ", out)
 	case "^":
-		out:= input.Num1 ^ input.Num2
+		out = input.Num1 ^ input.Num2
 		fmt.Println("Your root Value: ", out)
 	case "*":
-		out:= input.Num1 * input.Num2
+		out = input.Num1 * input.Num2
 		fmt.Println("Your root Value: ", out)
 	default:
 		fmt.Println("Invalid Output")
