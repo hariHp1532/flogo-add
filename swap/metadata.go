@@ -39,7 +39,7 @@ func (o *Output) FromMap(values map[string]interface{}) error {
 		return err
 	}
 
-	o.Output2, err = coerce.ToParams(values["Output2"])
+	o.Output2, err = coerce.ToInt(values["Output2"])
 	if err != nil {
 		return err
 	}
