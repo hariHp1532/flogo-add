@@ -33,11 +33,17 @@ type Output struct {
 }
 
 func (o *Output) FromMap(values map[string]interface{}) error {
-	strVal, _ := coerce.ToInt(values["Output1"])
-	o.Output1 = strVal
+	var err error
+	o.Output1, err = coerce.ToInt(values["Output1"])
+	if err != nil {
+		return err
+	}
 
-	strVa2, _ := coerce.ToInt(values["Output2"])
-	o.Output2 = strVa2
+	o.Output2, err = coerce.ToParams(values["Output2"])
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
 
