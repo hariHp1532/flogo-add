@@ -26,3 +26,7 @@ https://github.com/hariHp1532/flogo-add/multiplication
 filter:
 
 https://github.com/hariHp1532/flogo-add/filter
+
+swap:
+
+https://github.com/hariHp1532/flogo-add/swap
