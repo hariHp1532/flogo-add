@@ -32,7 +32,7 @@ func (a *Activity) Metadata() *activity.Metadata {
 // Eval implements api.Activity.Eval - Logs the Message
 func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
-	var out1, ou2, a, b int
+	var out1, ou2, a1, a2 int
 	input := &Input{}
 
 	err = ctx.GetInputObject(input) //GetInputObject gets all the activity input as the specified object.
@@ -40,7 +40,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		return true, err
 	}	
 	a1 = input.Number1
-	a2 = input.Number1
+	a2 = input.Number2
 	
 	a1 = a1 + a2
 	a2 = a1 - a2
