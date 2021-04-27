@@ -8,7 +8,7 @@ func init() {
 	_ = activity.Register(&Activity{}) //activity.Register(&Activity{}, New) to create instances using factory method 'New'
 }
 
-var activityMd = activity.ToMetadata(&Input, &Output)
+var activityMd = activity.ToMetadata(&Input{}, &Output{})
 
 //var activityMd = activity.ToMetadata(&Input{}, &Output{})
 
