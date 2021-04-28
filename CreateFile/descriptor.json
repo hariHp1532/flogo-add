@@ -1,0 +1,22 @@
+{
+    "name": "hp1532-CreateFile",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "CreateFile",
+    "description": "Create a File",
+    "homepage": "https://github.com/hariHp1532/flogo-add/CreateFile",
+    "input": [
+      {
+        "name": "FileName",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
