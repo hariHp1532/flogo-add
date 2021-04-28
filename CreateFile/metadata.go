@@ -28,7 +28,7 @@ type Output struct {
 func (o *Output) FromMap(values map[string]interface{}) error {
 
 	var err error
-	o.Output1, err = coerce.ToInt(values["Output"])
+	o.Output, err = coerce.ToString(values["Output"])
 	if err != nil {
 		return err
 	}
