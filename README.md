@@ -32,4 +32,10 @@ https://github.com/hariHp1532/flogo-add/swap
 
 
 CreateFile
+
 https://github.com/hariHp1532/flogo-add/CreateFile
+
+
+writefile
+
+https://github.com/hariHp1532/flogo-add/WriteFile
