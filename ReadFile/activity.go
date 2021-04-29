@@ -45,9 +45,9 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
 	file = input.FileName
 
-	data, err := ioutil.ReadFile(file)
+	data, errr := ioutil.ReadFile(file)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(errr)
 	}
 
 	out = string(data)
