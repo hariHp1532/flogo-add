@@ -13,6 +13,7 @@ func (r *Input) FromMap(values map[string]interface{}) error {
 
 	Val1, _ := coerce.ToString(values["FileName"])
 	r.FileName = Val1
+	return nil
 }
 
 func (r *Input) ToMap() map[string]interface{} {
