@@ -1,6 +1,4 @@
-This activity provides your Flogo app connector
-
-owned-by: hari <"hari.s@isteer.com">
+This activity provides your Flogo app basic connector <<<<   owned-by: hari <"hari.s@isteer.com">    >>>>>
 
 Installation
 
