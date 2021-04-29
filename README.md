@@ -39,3 +39,8 @@ https://github.com/hariHp1532/flogo-add/CreateFile
 writefile
 
 https://github.com/hariHp1532/flogo-add/WriteFile
+
+
+ReadFile
+
+https://github.com/hariHp1532/flogo-add/ReadFile
