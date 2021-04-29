@@ -37,14 +37,14 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
 	var file, out string
 	input := &Input{}
-	
-	file = input.FileName
 
 	err = ctx.GetInputObject(input) //GetInputObject gets all the activity input as the specified object.
 	if err != nil {
 		return true, err
 	}	
 
+	file = input.FileName
+	
 	emptyFile, err := os.Create(file)
 	if err != nil {
 		log.Fatal(err)
