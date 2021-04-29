@@ -47,7 +47,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	switch input.Operation {
 	case "AND":
 		out = input.Num1 & input.Num2
-		fmt.Println("Result of p & q = %d", out)
+		fmt.Println("Result of num1 & num2 = %d", out)
 	case "OR":
 		out = input.Num1 | input.Num2
 		fmt.Println("Result of num1 | num2 = %d", out)
