@@ -1,0 +1,27 @@
+{
+    "name": "hp1532-WriteFile",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "WriteFile",
+    "description": "Write a File",
+    "homepage": "https://github.com/hariHp1532/flogo-add/WriteFile",
+    "input": [
+      {
+        "name": "FileName",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
