@@ -45,8 +45,6 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
 	file = input.FileName
 
-	mydata := []byte(data)
-
 	data, err := ioutil.ReadFile(FileName)
 	if err != nil {
 		fmt.Println(err)
