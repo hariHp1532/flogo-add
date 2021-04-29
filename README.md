@@ -46,6 +46,11 @@ ReadFile
 https://github.com/hariHp1532/flogo-add/ReadFile
 
 
+logical operator
+
+https://github.com/hariHp1532/flogo-add/logic
+
+
 MySqlDataBase
 
 https://github.com/hariHp1532/flogo-add/MySqlDataBase
