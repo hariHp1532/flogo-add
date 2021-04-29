@@ -38,10 +38,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		return true, err
 	}
-	fmt.Println("num1 value:",input.Num1)
-	fmt.Println("num2 value:",input.Num2)
-	fmt.Println("operation:",input.Operation)
-
+	
 	fmt.Scanln(input.Operation)
 	
 	switch input.Operation {
@@ -64,7 +61,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		out = input.Num1 * input.Num2
 		fmt.Println("Your root Value: ", out)
 	default:
-		fmt.Println("Invalid Output")
+		fmt.Println("Invalid operation")
 	}	
 	
 	output := &Output{Output: out}
