@@ -1,0 +1,32 @@
+{
+    "name": "hp1532-MySqlDataBaseConnection",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "MySqlDataBaseConnection",
+    "description": "MySqlDataBase connection",
+    "homepage": "https://github.com/hariHp1532/flogo-add/MySqlDataBase",
+    "input": [
+      {
+        "name": "UserName",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "PassWord",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "DataBase",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
