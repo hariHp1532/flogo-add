@@ -1,0 +1,33 @@
+{
+    "name": "hp1532-logic",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "hp1532-logic",
+    "description": "logic operation",
+    "homepage": "https://github.com/hariHp1532/flogo-add/logic",
+    "input": [
+      {
+        "name": "Num1",
+        "type": "int",
+        "required": true
+      },
+      {
+        "name":"Num2",
+        "type":"int",
+        "required":true
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "required": true,
+        "allowed": ["AND", "OR", "XOR", "left-shift","right-shift","NOT"]
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "int"
+      }
+    ]
+  }
+  
