@@ -1,4 +1,4 @@
-This activity provides your Flogo app
+This activity provides your Flogo app connector
 
 owned-by: hari <"hari.s@isteer.com">
 
@@ -6,7 +6,7 @@ Installation
 
 https://github.com/hariHp1532/flogo-add.git
 
-Link for flogo web:
+Link for flogo install contribution:
 
 addition:			
 
