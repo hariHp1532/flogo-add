@@ -1,0 +1,21 @@
+{
+    "name": "hp1532-ReadFile",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "ReadFile",
+    "description": "Read a File",
+    "homepage": "https://github.com/hariHp1532/flogo-add/ReadFile",
+    "input": [
+      {
+        "name": "FileName",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
