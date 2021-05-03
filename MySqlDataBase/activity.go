@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	"github.com/project-flogo/core/activity"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func init() {
