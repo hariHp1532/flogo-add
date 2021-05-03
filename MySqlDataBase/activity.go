@@ -42,13 +42,13 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		return true, err
 	}
-
+	DBType := "mysql"
 	userName = input.UserName
 	password = input.PassWord
 	dataBase = input.DataBase
 	cred = userName + ":" + password + "@tcp(127.0.0.1:3306)/" + dataBase
 
-	db, err := sql.Open("mysql", cred)
+	db, err := sql.Open(DBType, cred)
 	if err != nil {
 		out = "error"
 		fmt.Println("connection error")
