@@ -1,12 +1,18 @@
 # TIBCO Cloud<sup>&trade;</sup> Integration - Flogo<sup>&reg;</sup>
 
-This activity provides your Flogo app basic connector <<<<    🤡 owned-by: 🤡 hari <"hari.s@isteer.com"> 🤡     >>>>>
+This activity provides your Flogo app basic connector 
+<br>
+🤡 owned-by: 🤡 hari <"hari.s@isteer.com"> 🤡
+<br>
 
-Installation
+# Installation
 
 https://github.com/hariHp1532/flogo-add.git
 
-Link for flogo install contribution:
+# Link for flogo install contribution:
+
+
+# Link for Basic flogo install contribution:
 
 Basic Connector Topic  | uRL
 ---------------  | -------------
@@ -18,6 +24,7 @@ Simple Swap  | https://github.com/hariHp1532/flogo-add/swap
 Simple calculator  | https://github.com/hariHp1532/flogo-add/filter
 logical operator  | https://github.com/hariHp1532/flogo-add/logic
 
+# Link for Basic File flogo install contribution:
 
 Basic File Connector | uRL
 ---------------  | -------------
@@ -26,6 +33,7 @@ write File  | https://github.com/hariHp1532/flogo-add/WriteFile
 Read File  | https://github.com/hariHp1532/flogo-add/ReadFile
 CreateFile  | https://github.com/hariHp1532/flogo-add/CreateFile
 
+# Link for MySqlDataBase Connector flogo install contribution:
 
 MySqlDataBase Connector | uRL
 ---------------  | -------------
