@@ -56,3 +56,7 @@ https://github.com/hariHp1532/flogo-add/logic
 MySqlDataBase
 
 https://github.com/hariHp1532/flogo-add/MySqlDataBase
+
+
+mysqlquery
+https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
