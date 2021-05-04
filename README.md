@@ -13,7 +13,7 @@ https://github.com/hariHp1532/flogo-add.git
 
 <br>
 
-### Link for Basic flogo install contribution:
+#### Link for Basic flogo install contribution:
 
 Basic Connector Topic  | uRL
 ---------------  | -------------
@@ -25,7 +25,8 @@ Simple Swap  | https://github.com/hariHp1532/flogo-add/swap
 Simple calculator  | https://github.com/hariHp1532/flogo-add/filter
 logical operator  | https://github.com/hariHp1532/flogo-add/logic
 <br>
-### Link for Basic File flogo install contribution:
+
+#### Link for Basic File flogo install contribution:
 
 Basic File Connector | uRL
 ---------------  | -------------
