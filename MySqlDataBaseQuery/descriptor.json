@@ -1,0 +1,43 @@
+{
+    "name": "hp1532-MySqlDataBaseQuery",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "MySqlDataBaseQuery",
+    "description": "MySqlDataBase query",
+    "homepage": "https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery",
+    "input": [
+      {
+        "name": "UserName",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "PassWord",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "DataBase",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "Querys",
+        "type": "string",
+        "required": true,
+        "allowed": ["insert", "delete"]
+      },
+      {
+        "name": "TypeQuery",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
