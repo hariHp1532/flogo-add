@@ -14,14 +14,13 @@ Simple addition  | https://github.com/hariHp1532/flogo-add/addition
 Simple subtraction  | https://github.com/hariHp1532/flogo-add/subtraction
 Simple divide  | https://github.com/hariHp1532/flogo-add/divide
 Simple multiplication  | https://github.com/hariHp1532/flogo-add/multiplication
-Simple addition  | https://github.com/hariHp1532/flogo-add/swap
+Simple Swap  | https://github.com/hariHp1532/flogo-add/swap
+Simple calculator  | https://github.com/hariHp1532/flogo-add/filter
 
 
-filter:
-
-https://github.com/hariHp1532/flogo-add/filter
-
-
+Basic Connector Topic  | uRL
+---------------  | -------------
+Simple addition  | https://github.com/hariHp1532/flogo-add/addition
 CreateFile
 
 https://github.com/hariHp1532/flogo-add/CreateFile
