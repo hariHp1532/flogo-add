@@ -11,9 +11,9 @@ Link for flogo install contribution:
 Basic Connector Topic  | uRL
 ---------------  | -------------
 Simple addition  | https://github.com/hariHp1532/flogo-add/addition
-Simple addition  | https://github.com/hariHp1532/flogo-add/subtraction
-Simple addition  | https://github.com/hariHp1532/flogo-add/divide
-Simple addition  | https://github.com/hariHp1532/flogo-add/multiplication
+Simple subtraction  | https://github.com/hariHp1532/flogo-add/subtraction
+Simple divide  | https://github.com/hariHp1532/flogo-add/divide
+Simple multiplication  | https://github.com/hariHp1532/flogo-add/multiplication
 Simple addition  | https://github.com/hariHp1532/flogo-add/swap
 
 
