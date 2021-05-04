@@ -16,35 +16,18 @@ Simple divide  | https://github.com/hariHp1532/flogo-add/divide
 Simple multiplication  | https://github.com/hariHp1532/flogo-add/multiplication
 Simple Swap  | https://github.com/hariHp1532/flogo-add/swap
 Simple calculator  | https://github.com/hariHp1532/flogo-add/filter
+logical operator  | https://github.com/hariHp1532/flogo-add/logic
 
 
-Basic Connector Topic  | uRL
+Basic File Connector | uRL
 ---------------  | -------------
-Simple addition  | https://github.com/hariHp1532/flogo-add/addition
-CreateFile
-
-https://github.com/hariHp1532/flogo-add/CreateFile
-
-
-writefile
-
-https://github.com/hariHp1532/flogo-add/WriteFile
+Create File  | https://github.com/hariHp1532/flogo-add/CreateFile
+write File  | https://github.com/hariHp1532/flogo-add/WriteFile
+Read File  | https://github.com/hariHp1532/flogo-add/ReadFile
+CreateFile  | https://github.com/hariHp1532/flogo-add/CreateFile
 
 
-ReadFile
-
-https://github.com/hariHp1532/flogo-add/ReadFile
-
-
-logical operator
-
-https://github.com/hariHp1532/flogo-add/logic
-
-
-MySqlDataBase
-
-https://github.com/hariHp1532/flogo-add/MySqlDataBase
-
-
-mysqlquery
-https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
+MySqlDataBase Connector | uRL
+---------------  | -------------
+MySql DataBase Connection  | https://github.com/hariHp1532/flogo-add/MySqlDataBase
+MySql Query  | https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
