@@ -15,7 +15,7 @@ https://github.com/hariHp1532/flogo-add.git
 
 #### Link for Basic flogo install contribution:
 
-Basic Connector Topic  | uRL
+Basic Connector Topic  | URL
 ---------------  | -------------
 Simple addition  | https://github.com/hariHp1532/flogo-add/addition
 Simple subtraction  | https://github.com/hariHp1532/flogo-add/subtraction
@@ -28,7 +28,7 @@ logical operator  | https://github.com/hariHp1532/flogo-add/logic
 
 #### Link for Basic File flogo install contribution:
 
-Basic File Connector | uRL
+Basic File Connector | URL
 ---------------  | -------------
 Create File  | https://github.com/hariHp1532/flogo-add/CreateFile
 write File  | https://github.com/hariHp1532/flogo-add/WriteFile
@@ -38,7 +38,7 @@ CreateFile  | https://github.com/hariHp1532/flogo-add/CreateFile
 
 #### Link for MySqlDataBase Connector flogo install contribution:
 
-MySqlDataBase Connector | uRL
+MySqlDataBase Connector | URL
 ---------------  | -------------
 MySql DataBase Connection  | https://github.com/hariHp1532/flogo-add/MySqlDataBase
 MySql Query  | https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
