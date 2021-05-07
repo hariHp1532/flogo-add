@@ -42,3 +42,10 @@ MySqlDataBase Connector | URL
 ---------------  | -------------
 MySql DataBase Connection  | https://github.com/hariHp1532/flogo-add/MySqlDataBase
 MySql Query  | https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
+<br>
+
+#### Link for IOT Connector flogo install contribution:
+
+IOT Connector | URL
+---------------  | -------------
+MQTT Connection  | https://github.com/hariHp1532/flogo-add/mqtt
