@@ -1,0 +1,42 @@
+{
+    "name": "hp1532-MySqlDataBaseInsert",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "MySqlDataBaseInsert",
+    "description": "MySqlDataBase connection",
+    "homepage": "https://github.com/hariHp1532/flogo-add/MySqlDataBaseInsert",
+    "input": [
+      {
+        "name": "UserName",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "PassWord",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "DataBase",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "Table",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "Value",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
