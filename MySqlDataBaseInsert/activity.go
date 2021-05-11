@@ -62,7 +62,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	table = input.Table
 	value = input.Value
 
-	sqlo := "INSERT INTO " + table + "(id, message) VALUES (1, '" + value + "');"
+	sqlo := "INSERT INTO " + table + "(id, message) VALUES (3, '" + value + "');"
 	fmt.Println(sqlo)
 	res, errr := db.Exec(sqlo)
 
@@ -75,7 +75,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		log.Fatal(errr)
 	}
 	fmt.Printf("The last inserted row id: %d\n", lastId)
-	out = lastId
+	out = "data inserted"
 	output := &Output{Output: out}
 	err = ctx.SetOutputObject(output)
 	if err != nil {
