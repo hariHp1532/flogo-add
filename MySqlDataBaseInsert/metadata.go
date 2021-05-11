@@ -28,7 +28,7 @@ func (r *Input) FromMap(values map[string]interface{}) error {
 	r.Table = Val4
 
 	Val5, _ := coerce.ToString(values["Value"])
-	r.Value = Val4
+	r.Value = Val5
 
 	return nil
 }
