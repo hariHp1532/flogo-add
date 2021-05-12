@@ -62,7 +62,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	table = input.Table
 	value = input.Value
 
-	sqlo := "INSERT INTO " + table + "(id, message) VALUES (3, '" + value + "');"
+	sqlo := "INSERT INTO " + table + "(id, message) VALUES (4, '" + value + "');"
 	fmt.Println(sqlo)
 	res, errr := db.Exec(sqlo)
 
