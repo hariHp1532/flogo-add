@@ -5,9 +5,8 @@ This activity provides your Flogo app basic connector
 🤡 owned-by: 🤡 hari <"hari.s@isteer.com"> 🤡
 <br>
 
-### Installation
-
-https://github.com/hariHp1532/flogo-add.git
+---------------  | -------------
+Installation  | https://github.com/hariHp1532/flogo-add.git
 
 ### Link for flogo install contribution:
 
