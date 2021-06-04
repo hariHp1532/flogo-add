@@ -57,7 +57,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		return true, err
 	}
-	start = input.in
+	start = input.In
 	start = readCsvFile("/poc.csv")
 
 	out = start
