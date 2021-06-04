@@ -50,3 +50,10 @@ MySql Query  | https://github.com/hariHp1532/flogo-add/MySqlDataBaseQuery
 IOT Connector | URL
 ---------------  | -------------
 MQTT Connection  | https://github.com/hariHp1532/flogo-add/mqtt
+<br>
+
+#### Link for CSV Read Connector flogo install contribution:
+
+CSV Connector | URL
+---------------  | -------------
+CSV READ  | https://github.com/hariHp1532/flogo-add/csv
