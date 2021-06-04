@@ -1,0 +1,22 @@
+{
+    "name": "hp1532-csv",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "hp1532-csv",
+    "description": "csv read",
+    "homepage": "https://github.com/hariHp1532/flogo-add/csv",
+    "input": [
+      {
+        "name": "In",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }
+  
